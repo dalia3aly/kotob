@@ -1,0 +1,48 @@
+.bookCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  margin: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: rgb(245, 245, 235);
+  color: rgb(36, 36, 36);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+  cursor: pointer;
+  p {
+    margin: 5px;
+  }
+}
+
+.bookCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  transform: translate(0, 18px) scale(1.01);
+  filter: drop-shadow(0 0 1em #ffbb02aa);
+}
+
+.bookCover {
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 160px;
+  object-fit: cover;
+  transition: all 0.5s;
+  transform: translate(0, -40px);
+  flex-wrap: wrap;
+}
+
+.bookTitle {
+  font-size: 1em;
+  font-weight: 700;
+  color: black;
+  margin: auto;
+}
+
+.bookAuthors {
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+  margin: auto;
+}

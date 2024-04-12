@@ -1,0 +1,24 @@
+.bookListContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .bookListContainer {
+      grid-template-columns: repeat(4, minmax(250px, 1fr));
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .bookListContainer {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+  
+  .bookCardWrapper {
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+  }

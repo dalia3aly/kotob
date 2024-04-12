@@ -1,0 +1,13 @@
+.genreButton {
+    background-color: #15616D;
+    color: #F5F5F5;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.genreButton:hover {
+    background-color: #FF7D00;
+    color: #001524;
+    border: 2px solid #001524;
+}
