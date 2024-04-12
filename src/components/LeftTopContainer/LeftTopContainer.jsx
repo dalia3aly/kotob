@@ -15,7 +15,7 @@ const LeftTopContainer = ({ onSelectGenre, onSearch }) => {
     <div className={styles.LeftTopContainer}>
 
       <img className= "logo"
-        src= "../../public/kotob.png"
+        src= "/kotob.png"
         alt="Kotob Logo"
         style={{ width: "450px", height: "450px", borderRadius: "50%"}}
       />
