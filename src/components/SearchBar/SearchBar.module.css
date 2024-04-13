@@ -12,6 +12,7 @@
     border-radius: 8px;
     outline: none;
     background-color: #fcfcfc;
+    color: #001524;
 }
 
 .searchInput:focus {
@@ -20,6 +21,7 @@
 
 .searchSelect {
     background-color: #FFECD1;
+    color: #001524;
     padding: 10px;
     border-radius: 10px;
     outline: none;
