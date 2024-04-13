@@ -1,8 +1,10 @@
 # Kotob Application
 
+- Live Demo @ https://kotob-api.netlify.app/
+
 ## Description
 
-Kotob is a React-based application that utilizes the Google Books API to display books, allow users to search by title or author, and provide detailed information about each book in a modal view.
+**Kotob** - which is the Arabic word for **books**, is a React-based front end application that utilises the Google Books API to display books, allow users to search by title or author, and provide detailed information about each book in a modal view.
 
 ## Features
 
@@ -39,7 +41,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Usage
 
-- For usage, Kindly obtain your own **Google Books API key**.
+- For usage, Kindly obtain your own **Google Books API key**. Please note that some functionalities do NOT require an API key.
 
 ## Contributing
 
@@ -62,3 +64,4 @@ Live Demo: [kotob-api.netlify.com](kotob-api.netlify.com)
 
 - Google Books API
 - React
+- Loading Spinner [React Spinners](https://mhnpd.github.io/react-loader-spinner/docs/components/grid)
